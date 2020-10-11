@@ -1,0 +1,27 @@
+package packet3;
+
+public class HardDisk{
+	private int amount;
+	private String name;
+public HardDisk(int amt,String nm){
+	this.name=nm;
+	this.amount=amt;
+	
+}  //空构造方法
+public HardDisk(){
+	
+}  
+public HardDisk(int amt){
+    	this.amount=amt;
+    	this.name="";
+    }
+
+public int getAmount(){
+return amount;
+}
+public void setAmount(int m){
+amount=m;
+}
+}
+
+ 
