@@ -1,0 +1,24 @@
+package packet4;
+
+
+public class CPU{  //cpu 类
+private int speed;
+private String name;
+public CPU(int spd,String nm){
+	this.speed=spd;
+	this.name=nm;
+}  //空构造方法
+public CPU(int spd){
+    	this.speed=spd;
+    	this.name="";
+    }
+public CPU(){
+	
+}  //空构造方法
+public int getSpeed(){
+return speed;
+}
+public void setSpeed(int m){
+speed=m;
+}
+}
