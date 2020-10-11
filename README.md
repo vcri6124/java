@@ -1,5 +1,4 @@
-# java
-store java code
+# 实验报告
 用类描述计算机中 CPU 的速度和硬盘的容量
 本项目涉及四个类分别是CPU类、HardDisk类、PC类、Test类用来展示
 1.class CPU
